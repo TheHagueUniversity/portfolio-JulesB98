@@ -1,58 +1,58 @@
 
+/* GREEN: #00a651 */
+
+
 html {
     font-family: monospace;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
-header{
+body {
+    margin: 0;
+}
+
+header {
     margin-top: -20px;
+    text-align: center;
+    
 }
 
-h1 {
-    font-size: 100px;
+.logo {
     text-align: center;
-    margin-bottom: -100px;
-}
-
-h2 {
-    font-size: 70px;
-    text-align: center;
-    margin-bottom: -30px;
-}
-
-h3 {
-    font-size: 22px;
-    text-align: center;
-    margin-bottom: 20px;
+    margin-top: 80px;
+    margin-bottom: 50px;
 }
 
 li {
     list-style: none;
     margin-left: -50px;
-    margin-right: -50px;
 }
 
 .scale1 {
     background-color: #DADADA;
     width: 100%;
-    height: 20px;
+    height: 30px;
 }
 
 .scale2 {
     background-color: #B6B6B6;
     width: 100%;
-    height: 20px;
+    height: 30px;
 }
 
 .scale3 {
     background-color: #919191;
     width: 100%;
-    height: 20px;
+    height: 25px;
 }
 
 .scale4 {
     background-color: #6D6D6D;
     width: 100%;
-    height: 20px;
+    height: 25px;
 }
 
 .scale5 {
@@ -71,9 +71,6 @@ li {
     background-image: url(/images/BG.jpg);
     text-align: center;
     width: 100%;
-    margin-left: -8px;
-    margin-top: -13px;
-    margin-right: 
-    margin-bottom: -8px;
     height: 3000px;
+    margin-top: -13px;
 }
