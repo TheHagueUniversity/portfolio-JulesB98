@@ -52,6 +52,22 @@ article {
     margin-top: -80px;
     background-color: #00a651;
 }
+.bar3 {
+    position: absolute;
+    width: 211px;
+    height: 2500px;;
+    margin-left: 704px;
+    margin-top: 0px;
+    background-color: #00a651;
+}
+.bar4 {
+    position: absolute;
+    width: 190px;
+    height: 2500px;;
+    margin-left: 922px;
+    margin-top: 0px;
+    background-color: #00a651;
+}
 
 h1{
     color: white;
