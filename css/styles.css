@@ -22,13 +22,16 @@ header {
 
 .logo {
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: -30px;
 }
+
+
 
 li {
     list-style: none;
     margin-left: -50px;
+    
 }
 
 .scale1 {
@@ -79,6 +82,7 @@ li {
 .topnav {
   background-color: black;
   overflow: hidden;
+
 }
 
 /* Style the links inside the navigation bar */
@@ -89,6 +93,7 @@ li {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 36px;
+    
 }
 
 /* Change the color of links on hover */
