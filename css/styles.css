@@ -47,10 +47,27 @@ p {
 
 .image {
     position: absolute;
-    margin-left: 113px;
-    margin-top: -40px;
-    width: 24%;
-    
+    margin-left: 160px;
+    margin-top: 35px;
+    width: 15%;
+}
+.image2 {
+    position: absolute;
+    margin-left: 490px;
+    margin-top: -7px;
+    width: 15%;
+}
+.image3 {
+    position: absolute;
+    margin-left: 680px;
+    margin-top: 23px;
+    width: 13%;
+}
+.image4 {
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 49px;
+    width: 13%;
 }
 
 li {
