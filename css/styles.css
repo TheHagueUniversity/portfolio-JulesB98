@@ -27,20 +27,41 @@ article {
     text-align: left;
     width: 40%;
 }
+
 .me {
     position: absolute;
+    z-index: 1;
     margin-left: -481px;
     margin-top: 80px;
     width: 210px;
+}
+.bar {
+    position: absolute;
+    width: 210px;
+    height: 2500px;;
+    margin-left: -229px;
+    margin-top: -80px;
+    background-color: #00a651;
+}
+.bar2 {
+   
+    position: absolute;
+    width: 329px;
+    height: 2500px;;
+    margin-left: -12px;
+    margin-top: -80px;
+    background-color: #00a651;
 }
 
 h1{
     color: white;
     font-size: 28px;
+    
 }
 p {
     font-size: 16px;
     color: white;
+   
 
 }
 
