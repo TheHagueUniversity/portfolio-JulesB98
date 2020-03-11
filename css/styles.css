@@ -45,7 +45,13 @@ p {
     margin-bottom: -30px;
 }
 
-
+.image {
+    position: absolute;
+    margin-left: 113px;
+    margin-top: -40px;
+    width: 24%;
+    
+}
 
 li {
     list-style: none;
