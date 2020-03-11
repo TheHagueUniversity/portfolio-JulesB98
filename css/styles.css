@@ -23,10 +23,15 @@ header {
 article {
     
     margin-top: 80px;
-    margin-left: 150px;
+    margin-left: 380px;
     text-align: left;
     width: 40%;
-    
+}
+.me {
+    position: absolute;
+    margin-left: -481px;
+    margin-top: 80px;
+    width: 210px;
 }
 
 h1{
