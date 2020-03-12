@@ -18,9 +18,12 @@ header {
     margin-top: -20px;
     text-align: center;
 }
-h1{
+h1 {
     color: white;
     font-size: 28px;
+}
+h2 {
+    color: white;
 }
 p {
     font-size: 16px;
@@ -80,10 +83,9 @@ p {
 /* Background*/
 .fadeBack {
     z-index: 0;
-    background-image: url("../images/BG.jpg");
+    background-image: url("../images/BGcrop.jpg");
 
     width: 100%;
-    height: 3000px;
     margin-top: -13px;
 }
 
@@ -131,19 +133,26 @@ p {
 .mainContentPro {
     grid-column: span 2;
 }
-
+footer {
+    position: relative;
+    top: -23px;
+    background-color: #00a651;
+}
+footer h1{
+    margin-left: 60px;
+}
 
 
 /* Intro Page */
 .image {
     position: absolute;
     z-index: 100;
-    width: 200px;
-    top: 246px;
+    width: 230px;
+    top: 226px;
 }
 .me {
    /* position: absolute;*/
-
+    margin-top: 80px;
     z-index: 0;
     width: 100%;
 }
@@ -167,12 +176,15 @@ p {
     float: center;
 }
 .meWork {
+    margin-top: 40px;
     z-index: 0;
     width: 100%;
 }
 .meWork2 {
+    margin-top: 10px;
     z-index: 0;
     width: 100%;
+    margin-bottom: 50px;
 }
 .workText {
     margin-left: 30px;
@@ -183,6 +195,12 @@ p {
     z-index: 0;
     background-color: #00a651;
 }
+.adobe {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 47px;
+}
+
 
 /* Education Page */
 .image3 {
@@ -208,6 +226,7 @@ p {
     list-style-image: url('../images/eduIcon.png');
 }
 .walburg {
+    margin-top: 60px;
     z-index: 0;
     width: 100%;
 }
@@ -219,13 +238,23 @@ p {
     z-index: 0;
     width: 100%;
 }
+.italic {
+    font-style: italic;
+    margin-left: 10%;
+}
+.sub {
+    font-style: italic;
+    margin-left: 15%;
+    color: #00a651;
+}
+
 
 /* Projects Page */
 .image4 {
     position: absolute;
     z-index: 100;
-    width: 190px;
-    top: 219px;
+    width: 230px;
+    top: 220px;
     float: center;
 }
 .proText {
@@ -242,11 +271,15 @@ p {
     z-index: 0;
     width: 70%;
     margin-top: 80px;
-    
 }
 .brackets {
     margin-top: 80px;
     margin-left: 15%;
     z-index: 0;
     width: 70%;
+}
+.projectList {
+    color: white;
+    font-size: 22px;
+    margin-left: 10%;
 }
