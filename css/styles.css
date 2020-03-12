@@ -20,7 +20,7 @@ header {
 }
 h1{
     color: white;
-    font-size: 28px;  
+    font-size: 28px;
 }
 p {
     font-size: 16px;
@@ -38,7 +38,7 @@ p {
 .scales li {
     list-style: none;
     margin-left: -50px;
-    
+    z-index: -2;
 }
 
 .scale1 {
@@ -80,8 +80,8 @@ p {
 /* Background*/
 .fadeBack {
     z-index: 0;
-    background-image: url(/images/BG.jpg);
-    text-align: center;
+    background-image: url("../images/BG.jpg");
+
     width: 100%;
     height: 3000px;
     margin-top: -13px;
@@ -89,17 +89,22 @@ p {
 
 /* Navigation Bar */
 .topnav {
-  background-color: black;
-  overflow: hidden;
 
+  overflow: hidden;
+  margin: 0 auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.mainContent {
+  grid-column: 2/4;
 }
 .topnav a {
   float: center;
   color: #f2f2f2;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 36px;
+  font-size: 28px;
 }
 .topnav a:hover {
   background-color: #ddd;
@@ -108,36 +113,37 @@ p {
 .topnav a.active {
   background-color: #00a651;
   color: white;
+  display: block;
+  /*position: relative;*/
 }
 
 /* Intro Page */
 .image {
     position: absolute;
-    margin-left: 160px;
-    margin-top: 35px;
-    width: 15%;
+    z-index: 100;
+    width: 200px;
+    top: 250px;
 }
 .me {
    /* position: absolute;*/
-    float: left;
+
     z-index: 0;
-    margin-left: 151px;
-    margin-top: 80px;
-    width: 210px;
+    margin-left: 0;
+    margin-top: 0;
+    width: 100%;
 }
 .introText {
-    margin-top: 80px;
-    margin-left: 380px;
+    margin-left: 30px;
     text-align: left;
     z-index: 1;
-    width: 40%;
+
 }
 .bar {
     z-index: 0;
-    width: 210px;
-    height: 2500px;;
-    margin-left: 151px;
-    margin-top: -251px;
+
+
+    margin-left: 0;
+    margin-top: -0;
     background-color: #00a651;
 }
 
@@ -169,7 +175,7 @@ p {
     width: 40%;
 }
 .bar2 {
-   
+
     position: absolute;
     width: 329px;
     height: 2500px;;
@@ -203,7 +209,7 @@ p {
     font-size: 24px;
     color: white;
     font-weight: 900;
-    list-style-image: url('/images/eduIcon.png');
+    list-style-image: url('../images/eduIcon.png');
 }
 .walburg {
     float: none;
@@ -262,6 +268,3 @@ p {
     margin-top: 80px;
     width: 190px;
 }
-
-
-
