@@ -35,7 +35,7 @@ p {
 
 
 /* Grey Scale Bars */
-li {
+.scales li {
     list-style: none;
     margin-left: -50px;
     
@@ -79,6 +79,7 @@ li {
 
 /* Background*/
 .fadeBack {
+    z-index: 0;
     background-image: url(/images/BG.jpg);
     text-align: center;
     width: 100%;
@@ -117,9 +118,10 @@ li {
     width: 15%;
 }
 .me {
-    position: absolute;
-    z-index: 1;
-    margin-left: -481px;
+   /* position: absolute;*/
+    float: left;
+    z-index: 0;
+    margin-left: 151px;
     margin-top: 80px;
     width: 210px;
 }
@@ -127,14 +129,15 @@ li {
     margin-top: 80px;
     margin-left: 380px;
     text-align: left;
+    z-index: 1;
     width: 40%;
 }
 .bar {
-    position: absolute;
+    z-index: 0;
     width: 210px;
     height: 2500px;;
-    margin-left: -229px;
-    margin-top: -80px;
+    margin-left: 151px;
+    margin-top: -251px;
     background-color: #00a651;
 }
 
@@ -183,18 +186,45 @@ li {
     width: 13%;
 }
 .eduText {
-    margin-top: 80px;
+    margin-top: -360px;
     margin-left: 168px;
     text-align: left;
     width: 40%;
 }
 .bar3 {
-    position: absolute;
+    float: center;
     width: 211px;
-    height: 2500px;;
-    margin-left: 704px;
-    margin-top: 0px;
+    height: 2500px;
+    margin-left: 55.71%;
+    margin-top: -500px;
     background-color: #00a651;
+}
+.schools {
+    font-size: 24px;
+    color: white;
+    font-weight: 900;
+    list-style-image: url('/images/eduIcon.png');
+}
+.walburg {
+    float: none;
+    z-index: 1;
+    margin-left: 351px;
+    margin-top: 60px;
+    width: 219px;
+}
+.wageningen {
+    float: none;
+    z-index: 1;
+    margin-left: 351px;
+    margin-top: 0px;
+    width: 219px;
+}
+.thuas {
+    float: none;
+    z-index: 1;
+    margin-left: 351px;
+    margin-top: 10px;
+    width: 219px;
 }
 
 /* Projects Page */
