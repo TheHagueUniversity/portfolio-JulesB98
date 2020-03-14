@@ -134,19 +134,22 @@ p {
     grid-column: span 2;
 }
 footer {
-    
-    top: -23px;
+    padding-top: 1px;
+
     background-color: #00a651;
 }
 footer h1{
+    padding-bottom: 15px;
     margin-left: 60px;
 }
 .button {
     float: left;
-    margin-left: 20px;
+    margin-left: 60px;
     margin-bottom: 10px;
     padding: 10px; 12px;
-    
+}
+.icon {
+    width: 35px;
 }
 
 
@@ -170,7 +173,6 @@ footer h1{
 
 }
 .bar {
-    z-index: 0;
     background-color: #00a651;
 }
 
@@ -198,10 +200,6 @@ footer h1{
     text-align: left;
     z-index: 1;
 }
-.bar2 {
-    z-index: 0;
-    background-color: #00a651;
-}
 .adobe {
     width: 30%;
     margin-left: 35%;
@@ -221,10 +219,6 @@ footer h1{
     margin-left: 70px;
     text-align: left;
     z-index: 1;
-}
-.bar3 {
-    z-index: 0;
-    background-color: #00a651;
 }
 .schools {
     font-size: 24px;
@@ -268,10 +262,6 @@ footer h1{
     margin-left: 30px;
     text-align: left;
     z-index: 1;
-}
-.bar4 {
-    z-index: 0;
-    background-color: #00a651;
 }
 .arduino {
     margin-left: 15%;
