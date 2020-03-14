@@ -281,6 +281,12 @@ p {
     font-size: 22px;
     margin-left: 10%;
 }
+.box {
+    padding: 15px;
+    border-color: white;
+    border: 2px;
+    border-style: solid;
+}
 .video1 {
     margin-top: 600px;
 }
