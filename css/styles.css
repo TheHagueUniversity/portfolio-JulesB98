@@ -25,6 +25,12 @@ h1 {
 h2 {
     color: white;
 }
+h3 {
+    color: white;
+    font-size: 22px;
+    margin-left: 10%;
+    font-weight: 3400; 
+}
 p {
     font-size: 16px;
     color: white;
@@ -133,25 +139,9 @@ p {
 .mainContentPro {
     grid-column: span 2;
 }
-footer {
-    padding-top: 1px;
-
-    background-color: #00a651;
+.mainContentProject {
+    grid-column: span 3;
 }
-footer h1{
-    padding-bottom: 15px;
-    margin-left: 60px;
-}
-.button {
-    float: left;
-    margin-left: 60px;
-    margin-bottom: 10px;
-    padding: 10px; 12px;
-}
-.icon {
-    width: 35px;
-}
-
 
 /* Intro Page */
 .image {
@@ -263,20 +253,67 @@ footer h1{
     text-align: left;
     z-index: 1;
 }
-.arduino {
-    margin-left: 15%;
-    z-index: 0;
-    width: 70%;
-    margin-top: 80px;
+.projectText {
+    margin-right: 30px;
+    text-align: right;
+    z-index: 1;
 }
-.brackets {
-    margin-top: 80px;
-    margin-left: 15%;
+.proImagesTop {
+    margin-left: 13%;
     z-index: 0;
     width: 70%;
+    margin-top: 130px;
+}
+.proImages {
+    margin-left: 13%;
+    z-index: 0;
+    width: 70%;
+    margin-top: 230px;
+}
+.proImagesL {
+    margin-left: 13%;
+    z-index: 0;
+    width: 70%;
+    margin-top: 300px;
 }
 .projectList {
     color: white;
     font-size: 22px;
     margin-left: 10%;
 }
+.video1 {
+    margin-top: 600px;
+}
+.pictures {
+    width: 250px;
+    margin-right: 50px;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding-top: 1px;
+
+    background-color: #00a651;
+}
+footer h1{
+    padding-bottom: 15px;
+    margin-left: 60px;
+}
+.button {
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    padding: 10px; 12px;
+}
+.icon {
+    width: 35px;
+}
+.copyright {
+    color: black;
+    float: right;
+    text-align: right;
+    margin-right: 10%;
+}
+
