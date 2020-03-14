@@ -288,6 +288,13 @@ p {
     width: 250px;
     margin-right: 50px;
 }
+.back {
+    position: fixed;
+    width: 50px;
+    z-index: 300;
+    top: 470px;
+    left: 30px;
+}
 
 
 /* FOOTER */
