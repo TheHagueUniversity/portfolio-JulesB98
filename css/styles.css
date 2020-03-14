@@ -289,7 +289,7 @@ p {
     margin-right: 50px;
 }
 .back {
-    position: fixed;
+    position: absolute;
     width: 50px;
     z-index: 300;
     top: 470px;
